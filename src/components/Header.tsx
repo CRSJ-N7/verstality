@@ -1,10 +1,10 @@
 import c from "./Header.module.css";
 import logo from "../assets/top/logo.svg";
-import scrollDown from "../assets/top/scrollDown.png"
-import mainPhoto from "../assets/top/mainPhoto.png"
+import scrollDown from "../assets/top/scrollDown.png";
+import mainPhoto from "../assets/top/mainPhoto.png";
+
 function Header() {
   return (
-    <>
       <div className={c.header}>
         <div className={c.menu}>
           <img className={c.logo} src={logo} />
@@ -18,12 +18,7 @@ function Header() {
           </div>
         </div>
         <img className={c.mainPhoto} src={mainPhoto} />
-        <div className={c.photoWrapper}></div>
-      <div className={c.aboutMe}>
-        <h2 className={c.aboutMeText}>From art to technology, we transform visions into extraordinary <b className={c.boldText}>digital experiences</b> - your design, our passion, an exceptional future</h2>
       </div>
-      </div>
-    </>
   );
 }
 
