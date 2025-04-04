@@ -4,7 +4,7 @@ import dribbleIcon from "../assets/top/dribbleIcon.svg";
 import linkedinIcon from "../assets/top/linkedinIcon.svg";
 import twitterIcon from "../assets/top/twitterIcon.svg";
 
-function AboutMe() {
+const AboutMe = () => {
   return (
 <>
     <div className={c.aboutMeSection}>

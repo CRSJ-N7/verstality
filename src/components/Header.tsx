@@ -1,5 +1,5 @@
 import c from "./Header.module.css";
-import logo from "../assets/top/logo.svg";
+import logo from "../assets/top/HeaderLogo.svg";
 import scrollDown from "../assets/top/scrollDown.png";
 import mainPhoto from "../assets/top/mainPhoto.png";
 
