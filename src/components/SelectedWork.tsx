@@ -16,12 +16,16 @@ const SelectedWork = () => {
       </div>
       <div className={c.profileWorksWrapper}>
         <div className={c.profileWorks}>
-          <h2 className={c.profileName}>TRINITY</h2>
+          <h2 className={c.profileName}><b>TRINITY</b></h2>
           <div className={c.profileTags}>
             <button className={c.profileButtons}>Digital Design</button>
             <button className={c.profileButtons}>2022</button>
           </div>
-          <img className={c.profileDiscover} alt="NavigationIcons"></img>
+          <div className={c.profileDiscover}>
+            <button className={`${c.profileButtons} ${c.discoverButton}`}>
+              Discover
+              </button>
+          </div>
         </div>
       </div>
 
@@ -31,12 +35,16 @@ const SelectedWork = () => {
       </div>
       <div className={c.profileWorksWrapper}>
         <div className={c.profileWorks}>
-          <h2 className={c.profileName}>MORPHEUS</h2>
+        <h2 className={c.profileName}><b>MORPHEUS</b></h2>
           <div className={c.profileTags}>
-          <button className={c.profileButtons}>Digital Design</button>
-          <button className={c.profileButtons}>2023</button>
+            <button className={c.profileButtons}>Digital Design</button>
+            <button className={c.profileButtons}>2023</button>
           </div>
-          <img className={c.profileDiscover} alt="NavigationIcons"></img>
+          <div className={c.profileDiscover}>
+            <button className={`${c.profileButtons} ${c.discoverButton}`}>
+              Discover
+              </button>
+          </div>
         </div>
       </div>
     </div>
