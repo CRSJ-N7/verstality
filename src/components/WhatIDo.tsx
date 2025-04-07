@@ -38,7 +38,7 @@ const WhatIDo = () => {
                 user-friendly.
               </p>
             </div>
-            <div className={c.iDoSkills}>
+            <div className={`${c.iDoSkills} ${c.lastSkill}`}>
               <p className={c.iDoSkillsHeader}>
                 <b className={c.lightText}>04</b> MOTION DESIGN
               </p>

@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+.iDoSkills {
+  border-bottom: 1px solid #252525;
+}
+
 .iDoSkillsMainHeader {
   font-family: "Gilroy", sans-serif;
   font-weight: 300;
@@ -47,6 +51,12 @@
   font-weight: 400;
   text-align: left;
   letter-spacing: 0.65px;
+  margin-bottom: 30px;
+}
+
+.lastSkill {
+  margin-bottom: 0px;
+  border: none;
 }
 
 .lightText {
