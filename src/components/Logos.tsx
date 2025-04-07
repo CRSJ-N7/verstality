@@ -1,10 +1,10 @@
-import logo1 from "../assets/top/Logo-1.svg";
-import logo2 from "../assets/top/Logo-2.svg";
-import logo3 from "../assets/top/Logo-3.svg";
-import logo4 from "../assets/top/Logo-4.svg";
-import logo5 from "../assets/top/Logo-5.svg";
-import logo6 from "../assets/top/Logo-6.svg";
-import logo7 from "../assets/top/Logo-7.svg";
+import logo1 from "../assets/logos/Logo-1.svg";
+import logo2 from "../assets/logos/Logo-2.svg";
+import logo3 from "../assets/logos/Logo-3.svg";
+import logo4 from "../assets/logos/Logo-4.svg";
+import logo5 from "../assets/logos/Logo-5.svg";
+import logo6 from "../assets/logos/Logo-6.svg";
+import logo7 from "../assets/logos/Logo-7.svg";
 
 import c from "./Logos.module.css";
 

@@ -1,10 +1,5 @@
 .selectedWorkContainer {
- max-width: 478px; 
-}
-
-.selectedWorkWrapper {
-  margin: 30px 34px 30px 34px;
-  display: flex;
+ border-bottom: 1px solid #252525;
 }
 
 .selectedWorkText {
@@ -13,6 +8,8 @@
   font-size: 80px;
   color: rgb(37, 37, 37);
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .profileImagesWrapper {
@@ -47,7 +44,7 @@ flex-direction: column;
   gap: 30px;
 }
 .profileButtons {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   border-radius: 50px;
   font-family: 'Gilroy', sans-serif;
@@ -62,8 +59,7 @@ flex-direction: column;
 .profileDiscover {
   display: flex;
   justify-content: flex-end;
-  max-width: 478px;
-  flex-wrap: nowrap
+
 }
 .discoverButton {
   background-color: rgb(37, 37, 37);
@@ -74,11 +70,24 @@ flex-direction: column;
 }
 
 .discoverButton::after {
-  display: inline-block;
   content: url('../assets/selected-work/arrow.svg');
   height: 1.75em;
   }
 
 .profileDiscoverIcon {
   background-image: url("../assets/selected-work/arrow.svg");
+}
+
+.profileFooter {
+  display: flex;
+}
+
+.allWorkButton {
+  width: 100%; 
+  display: block; 
+  text-align: center;
+  margin: 40px 20px 30px 20px;
+  border-radius: 50px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
 }

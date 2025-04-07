@@ -1,11 +1,15 @@
 .iDoContainer {
-  max-width: 478px;
   border-bottom: 1px solid #252525;
 }
 
 .iDoWrapper {
   display: flex;
   flex-direction: column;
+}
+
+.iDoPhoto {
+  width: 100%;
+  height: auto;
 }
 
 .iDoSkillsContainer {
@@ -26,15 +30,13 @@
   color: #252525;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 20px 14.5px 40px 14.5px;
+  margin: 20px 14.5px 5px 14.5px;
 }
 
 .iDoSkillsWrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin-inline: 20px;
-  margin-bottom: 20px;
+  margin: 0px 20px 0px 20px;
 } 
 
 .iDoSkillsHeader {
@@ -43,6 +45,7 @@
   font-size: 35px;
   margin-bottom: 10px;
   color: #252525;
+  margin-top: 30.5px;
 }
 
 .iDoSkillsDesc {
@@ -51,7 +54,7 @@
   font-weight: 400;
   text-align: left;
   letter-spacing: 0.65px;
-  margin-bottom: 30px;
+  margin-bottom: 29.5px;
 }
 
 .lastSkill {
