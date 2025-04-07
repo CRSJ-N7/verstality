@@ -1,7 +1,3 @@
-.myClientsContainer {
-  
-}
-
 .myClientsHeader {
   font-family: 'Gilroy', sans-serif;
   font-weight: 300;
@@ -10,3 +6,56 @@
   text-align: center;
 }
 
+.myClientsWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 0px 30px;
+}
+
+.myClient {
+  border-bottom: 1px solid #252525;
+  padding: 40px 0px 40px 0px;
+}
+
+.logoWrapper, .clientHeader, .clientDesc  {
+margin-bottom: 30px;
+color: rgb(51, 51, 51);
+}
+
+.clientHeader {
+  font-family: 'Gilroy', 'sans serif';
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.clientDesc {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.65px;
+  line-height: 1.3;
+}
+
+.clientProfile {
+  display: flex;
+  gap: 20px;
+}
+
+.clientInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.clientName {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.clientPosition {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
