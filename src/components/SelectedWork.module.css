@@ -74,10 +74,6 @@ flex-direction: column;
   height: 1.75em;
   }
 
-.profileDiscoverIcon {
-  background-image: url("../assets/selected-work/arrow.svg");
-}
-
 .profileFooter {
   display: flex;
 }

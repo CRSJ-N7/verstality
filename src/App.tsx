@@ -6,6 +6,7 @@ import WhatIDo from './components/WhatIDo';
 import SelectedWork from './components/SelectedWork';
 import MyClients from './components/MyClients';
 import OurTeam from './components/OurTeam';
+import Contact from './components/Contact';
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
         <SelectedWork />
         <MyClients />
         <OurTeam />
+        <Contact />
       </div>
     </>
   );

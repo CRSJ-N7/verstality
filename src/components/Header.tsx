@@ -1,7 +1,7 @@
 import c from "./Header.module.css";
-import logo from "../assets/top/HeaderLogo.svg";
-import scrollDown from "../assets/top/scrollDown.png";
-import mainPhoto from "../assets/top/mainPhoto.png";
+import logo from "../assets/icons/HeaderLogo.svg";
+import scrollDown from "../assets/header/scrollDown.png";
+import mainPhoto from "../assets/header/mainPhoto.png";
 
 function Header() {
   return (

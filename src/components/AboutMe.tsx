@@ -1,8 +1,8 @@
 import c from "./AboutMe.module.css";
-import facebookIcon from "../assets/top/facebookIcon.svg";
-import dribbleIcon from "../assets/top/dribbleIcon.svg";
-import linkedinIcon from "../assets/top/linkedinIcon.svg";
-import twitterIcon from "../assets/top/twitterIcon.svg";
+import facebookIcon from "../assets/icons/facebookIcon.svg";
+import dribbleIcon from "../assets/icons/dribbleIcon.svg";
+import linkedinIcon from "../assets/icons/linkedinIcon.svg";
+import twitterIcon from "../assets/icons/twitterIcon.svg";
 
 const AboutMe = () => {
   return (
