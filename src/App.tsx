@@ -5,6 +5,7 @@ import Logos from './components/Logos'
 import WhatIDo from './components/WhatIDo';
 import SelectedWork from './components/SelectedWork';
 import MyClients from './components/MyClients';
+import OurTeam from './components/OurTeam';
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
         <WhatIDo />
         <SelectedWork />
         <MyClients />
+        <OurTeam />
       </div>
     </>
   );

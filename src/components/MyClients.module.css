@@ -1,3 +1,6 @@
+.myClientsContainer {
+  border-bottom: 1px solid #252525;
+}
 .myClientsHeader {
   font-family: 'Gilroy', sans-serif;
   font-weight: 300;
@@ -48,6 +51,10 @@ color: rgb(51, 51, 51);
   flex-direction: column;
   gap: 10px;
 }
+.clientPhoto {
+  width: 70px;
+  height: 70px;
+}
 
 .clientName {
   font-family: 'Inter', sans-serif;
@@ -58,4 +65,9 @@ color: rgb(51, 51, 51);
 .clientPosition {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
+}
+
+.lastClient {
+  margin-bottom: 0px;
+  border: none;
 }

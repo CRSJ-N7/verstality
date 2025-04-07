@@ -128,7 +128,7 @@ const MyClients = () => {
           </div>
         </div>
 
-        <div className={c.myClient}>
+        <div className={`${c.myClient} ${c.lastClient}`}>
             <div className={c.logoWrapper}>
               <img className={c.logo1} src={logo6} />
             </div>
