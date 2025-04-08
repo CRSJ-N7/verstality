@@ -6,7 +6,7 @@ import leafs from "../assets/selected-work/leafs-picture.png";
 const SelectedWork = () => {
   return (
     <div className={c.selectedWorkContainer}>
-      <h2 className={c.selectedWorkText}>SELECTED WORK</h2>
+      <h2 className={c.selectedWorkHeader}>SELECTED WORK</h2>
       <div className={c.profileImagesWrapper}>
         <img className={c.profileImage} src={hand}></img>
         <img className={c.profileImage} src={leafs}></img>

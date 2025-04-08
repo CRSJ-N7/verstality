@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 991px) {
+  .app {
+    max-width: 991px;
+  }
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("/src/fonts/Gilroy-Semibold.woff") format("woff");

@@ -2,7 +2,7 @@
  border-bottom: 1px solid #252525;
 }
 
-.selectedWorkText {
+.selectedWorkHeader {
   font-family: 'Gilroy', sans-serif;
   font-weight: 300;
   font-size: 80px;
@@ -12,8 +12,14 @@
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 991px) {
+  .selectedWorkHeader {
+    font-size: 150px;
+  }
+}
+
+
 .profileImagesWrapper {
-max-width: 478px;
 display: flex;
 flex-direction: column;
 }
@@ -22,19 +28,32 @@ flex-direction: column;
   margin: 0px 20px 20px 20px;
 }
 
+@media screen and (min-width: 991px) {
+  .profileImage {
+    height: 921px;
+    width: 931px;
+    margin: 0px 30px 30px 30px;
+  }
+}
+
 .profileName {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-inline: 30px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 35px;
   color: rgb(37, 37, 37);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 931px) {
+.profileName {
+  margin-bottom: 30px;
+}
 }
 
 .profileWorks {
   display: flex;
   flex-direction: column;
-  max-width: 478px;
   margin: 0px 20px 20px 0px;
 }
 
@@ -42,6 +61,7 @@ flex-direction: column;
   display: flex;
   margin-left: 20px;
   gap: 30px;
+  margin-bottom: 20px;
 }
 .profileButtons {
   display: flex;
@@ -56,6 +76,12 @@ flex-direction: column;
   cursor: pointer;
 }
 
+@media screen and (min-width: 991px) {
+  .profileButtons {
+  margin-right: 15px;
+  }
+}
+
 .profileDiscover {
   display: flex;
   justify-content: flex-end;
@@ -66,13 +92,18 @@ flex-direction: column;
   color: rgb(255, 255, 255);
   gap: 10px;
   padding: 10px 30px 10px 30px;
-  margin-top: 30px;
 }
 
 .discoverButton::after {
   content: url('../assets/selected-work/arrow.svg');
   height: 1.75em;
   }
+
+@media screen and (min-width: 931px) {
+  .discoverButton {
+    margin-bottom: 70px;
+  }
+}
 
 .profileFooter {
   display: flex;
@@ -87,3 +118,14 @@ flex-direction: column;
   font-family: 'Gilroy', sans-serif;
   font-weight: 400;
 }
+
+@media screen and (min-width: 991px) {
+  .profileFooter {
+    justify-content: center;
+  }
+  .allWorkButton {
+align-content: center;
+width: 187px;
+height: 52px;
+}
+};

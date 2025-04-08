@@ -9,6 +9,12 @@
   text-align: center;
 }
 
+@media screen and (min-width: 991px) {
+  .myClientsHeader {
+    font-size: 150px;
+  }
+}
+
 .myClientsWrapper {
   display: flex;
   flex-direction: column;
@@ -41,6 +47,12 @@ color: rgb(51, 51, 51);
   line-height: 1.3;
 }
 
+@media screen and (min-width: 991px) {
+  .clientDesc {
+  letter-spacing: 0.33px;
+}
+}
+
 .clientProfile {
   display: flex;
   gap: 20px;
@@ -50,6 +62,12 @@ color: rgb(51, 51, 51);
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media screen and (min-width: 991px) {
+  .clientInfo {
+  gap: 1px;
+}
 }
 .clientPhoto {
   width: 70px;

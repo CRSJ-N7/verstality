@@ -11,6 +11,7 @@
   color: rgb(37, 37, 37)
 }
 
+
 .titleWrapper {
   display: flex;
   flex-direction: column;
@@ -33,6 +34,14 @@
   font-size: 53px;
   color: rgb(37, 37, 37)
 }
+@media screen and (min-width: 991px) {
+  .title {
+    font-size: 120px;
+  }  
+  .subtitle {
+    font-size: 110px;
+  }
+}
 
 .scrollDown {
   margin-top: 30px;
@@ -44,3 +53,14 @@
   height: auto;
 }
 
+@media screen and (min-width: 991px) {
+
+  .header {
+    overflow: hidden;
+  }
+  .mainPhoto {
+    height: 956px;
+    object-fit: cover;
+  }
+  
+}

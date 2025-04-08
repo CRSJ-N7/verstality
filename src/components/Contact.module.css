@@ -10,6 +10,12 @@
   margin: 30px 20px 30px 20px;
   text-align: center;
 }
+@media screen and (min-width: 991px) {
+  .contactHeader {
+    font-size: 150px;
+  }
+  
+}
 
 .contactDescWrapper {
   display: flex;
@@ -36,10 +42,20 @@
   margin-inline: 20px;
 }
 
+@media screen and (min-width: 991px) {
+  .contactTitle {
+    font-size: 64px;
+  }
+  
+  .contactSubtitle {
+    font-size: 34px;
+  }
+  
+}
+
 .getInTouchWrapper {
   display: flex;
   width: 100%;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -67,12 +83,21 @@
   height: 1.75em;
   }
 
-  .footer { 
+  @media screen and (min-width: 991px) {
+    .getInTouchButton {
+      width: 195px;
+      height: 53px;
+      padding: 0;
+    }
+    
+  }
+
+.footer { 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 24px 30px 24px 30px;
+    padding: 20px 0px;
     gap: 20px;
   }
 
@@ -90,5 +115,13 @@
   .logosWrapper {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 991px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 45px 30px;
+    }
+
   }

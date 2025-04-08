@@ -32,12 +32,25 @@
   padding-right: 20px;
   margin: 20px 14.5px 5px 14.5px;
 }
+@media screen and (min-width: 991px) {
+  .iDoSkillsMainHeader {
+    font-size: 150px;
+  }
+  
+}
 
 .iDoSkillsWrapper {
   display: flex;
   flex-direction: column;
   margin: 0px 20px 0px 20px;
 } 
+
+@media screen and (min-width: 991px) {
+  .iDoSkillsWrapper {
+    margin-inline: 30px;
+  }
+  
+}
 
 .iDoSkillsHeader {
   font-family: "Gilroy", sans-serif;
@@ -55,6 +68,13 @@
   text-align: left;
   line-height: 1.4;
   margin-bottom: 29.5px;
+}
+
+
+@media screen and (min-width: 991px) {
+  .iDoSkillsDesc {
+    letter-spacing: 0.4px;
+  } 
 }
 
 .lastSkill {

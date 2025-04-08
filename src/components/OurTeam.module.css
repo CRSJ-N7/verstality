@@ -10,6 +10,26 @@
   text-align: center;
 }
 
+@media screen and (min-width: 991px) {
+  .ourTeamHeader {
+    font-size: 150px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .ourTeamProfileWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-inline: 30px;
+  }
+
+  .profilePhoto {
+    max-height: 507px;
+  }
+}
+
 .profileWrapper {
   display: flex;
   flex-direction: column;
@@ -17,6 +37,12 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 991px) { 
+  .profileWrapper {
+align-items: flex-start;
+  }
 }
 
 .profileName {
@@ -45,6 +71,12 @@ color: rgb(51, 51, 51);
   gap: 10px;
   padding-top: 15px;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 991px) {
+  .logosWrapper {
+    justify-content: flex-end;
+  }
 }
 
 .logo {
@@ -78,6 +110,17 @@ color: rgb(51, 51, 51);
   color: rgb(51, 51, 51);
   margin-bottom: 15px;
 }
+@media screen and (min-width: 991px) {
+  .findJobWrapper {
+    align-items: flex-start;
+  margin: 30px 20px 50px 30px;  
+
+  }
+  .findJobDesc {
+    font-size: 64px;
+    text-align: left;
+  }
+}
 
 .findJobButtonWrapper {
   display: flex;
@@ -104,4 +147,11 @@ color: rgb(51, 51, 51);
 .findJobButton::after{
   content: url('../assets/selected-work/arrow.svg');
   height: 1.75em;
+}
+
+@media screen and (min-width: 991px) {
+  .findJobButton {
+    width: 163px;
+    height: 53px;
+  }
 }

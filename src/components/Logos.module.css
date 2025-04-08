@@ -1,10 +1,8 @@
 .logosContainer {
-  max-width: 478px;
   border-bottom: 1px solid #394149
 }
 
 .logosWrapper {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
