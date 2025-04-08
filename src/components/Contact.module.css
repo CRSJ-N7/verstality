@@ -1,0 +1,94 @@
+.contactContainer {
+
+}
+
+.contactHeader {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 300;
+  font-size: 80px;
+  color: #252525;
+  margin: 30px 20px 30px 20px;
+  text-align: center;
+}
+
+.contactDescWrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #252525;
+  text-align: center;
+}
+
+.contactTitle {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(37, 37, 37);
+  margin-bottom: 30px;
+  margin-inline: 20px;
+}
+
+.contactSubtitle {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(37, 37, 37);
+  margin-bottom: 30px;
+  margin-inline: 20px;
+}
+
+.getInTouchWrapper {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.getInTouchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 50px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px 30px 15px 30px;
+  margin-inline: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.getInTouchButton::after {
+  content: url('../assets/selected-work/arrow.svg');
+  height: 1.75em;
+  }
+
+  .footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 30px 24px 30px;
+    gap: 20px;
+  }
+
+  .footerText {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    color: rgb(37, 37, 37);
+  }
+  .boldText {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+  }
+
+  .logosWrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
