@@ -136,6 +136,10 @@ flex-direction: column;
    width: 567px;
    height: 567px; 
    margin-left: 40px;
+   margin-right: 0px;
+  }
+  .profileWorksSecond {
+    margin-left: 0px;
   }
   .profileDiscover {
     flex-grow: 1;
@@ -144,6 +148,26 @@ flex-direction: column;
   }
   .discoverButton {
     margin: 0;
+  }
+  .profileName {
+    margin-left: 0;
+  }
+  .selectedWork {
+    gap: 40px;
+  }
+  .selectedWorkSecond { 
+    margin-left: 40px;
+    gap: 40px;
+    margin-top: 50px;
+  }
+  .profileImagesWrapper {
+    gap: 40px;
+  }
+  .profileImagesSecond > .profileImage {
+    margin: 0px;
+  }
+  .profileImage {
+    margin: 0px;
   }
 }
 
@@ -161,6 +185,12 @@ flex-direction: column;
   font-weight: 400;
 }
 
+@media screen and (min-width: 1921px) {
+  .profileFooter {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
 @media screen and (min-width: 991px) {
   .profileFooter {
     justify-content: center;
@@ -171,4 +201,5 @@ width: 187px;
 height: 52px;
 }
 };
+}
 

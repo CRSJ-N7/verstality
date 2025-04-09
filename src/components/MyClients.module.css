@@ -15,11 +15,20 @@
   }
 }
 
+@media screen and (min-width: 1921px) {
+  .myClientsHeader {
+    font-size: 212px;
+    margin-top: 59px;
+    margin-inline: 345px;
+  }
+}
+
 .myClientsWrapper {
   display: flex;
   flex-direction: column;
   margin: 0px 30px 0px 30px;
 }
+
 
 .myClient {
   border-bottom: 1px solid #252525;
@@ -53,6 +62,36 @@ color: rgb(51, 51, 51);
 }
 }
 
+@media screen and (min-width: 1921px) {
+  .myClientsWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 70px 130px 70px;
+  }
+  .myClient {
+    width: 547px;
+    height: 537px;
+    border-right: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+    padding: 30px 20px 30px 20px
+  }
+  .clientHeader{
+    letter-spacing: 1.7px;
+  }
+  .clientDesc {
+    letter-spacing: 0.93px;
+  }
+
+  .myClient:nth-child(3) {
+    border-right: none;
+  }
+  .myClient:nth-child(4) {
+    border-bottom: none;
+  }
+  .myClient:nth-child(5) {
+    border-bottom: none;
+  }
+}
 .clientProfile {
   display: flex;
   gap: 20px;

@@ -29,13 +29,13 @@ const SelectedWork = () => {
           </div>
         </div>
       </div>
-      <div className={c.selectedWork}>
+      <div className={`${c.selectedWork} ${c.selectedWorkSecond}`}>
         <div className={`${c.profileImagesWrapper} ${c.profileImagesSecond}`}>
           <img className={c.profileImage} src={flower}></img>
           <img className={c.profileImage} src={girl}></img>
         </div>
-        <div className={c.profileWorksWrapper}>
-          <div className={c.profileWorks}>
+        <div className={`${c.profileWorksWrapper} ${c.profileWorksSecond}`}>
+          <div className={`${c.profileWorks} ${c.profileWorksSecond}`}>
             <h2 className={c.profileName}>
               <b>MORPHEUS</b>
             </h2>
