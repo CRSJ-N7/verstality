@@ -4,6 +4,13 @@
   padding: 20px 20px 0px 20px;
 }
 
+@media screen and (min-width: 1921px) {
+  .menu {
+    padding: 40px 70px 30px 70px;
+  }
+  
+}
+
 .menuText {
   font-family: "Gilroy", sans-serif;
   font-weight: 700;
@@ -18,6 +25,12 @@
   align-items: center;
   justify-content: center;
   margin: 30px 20px 0px 20px;
+}
+
+@media screen and (min-width: 1921px) {
+  .titleWrapper {
+    margin: 30px 70px 0px 70px;
+  }
 }
 
 .title {
@@ -46,6 +59,13 @@
 .scrollDown {
   margin-top: 30px;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1921px) {
+  .scrollDown {
+    padding-bottom: 40px;
+  }
+  
 }
 
 .mainPhoto {

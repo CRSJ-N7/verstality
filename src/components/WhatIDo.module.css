@@ -7,6 +7,12 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 1921px) {
+  .iDoWrapper {
+    flex-direction: row;
+  }
+}
+
 .iDoPhoto {
   width: 100%;
   height: auto;

@@ -1,3 +1,9 @@
+@media screen and (min-width: 1921px) {
+  .selectedWork {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .selectedWorkContainer {
  border-bottom: 1px solid #252525;
 }
@@ -24,15 +30,34 @@ display: flex;
 flex-direction: column;
 }
 
+@media screen and (min-width: 1921px) {
+  .profileImagesWrapper {
+    flex-direction: row;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .profileImagesSecond {
+    flex-direction: row;
+    order: 0;
+  }
+}
+
 .profileImage {
   margin: 0px 20px 20px 20px;
 }
 
 @media screen and (min-width: 991px) {
-  .profileImage {
-    height: 921px;
-    width: 931px;
+  .profileImage { 
     margin: 0px 30px 30px 30px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .profileImage { 
+    width: 567px;
+    height: 567px;
   }
 }
 
@@ -63,6 +88,7 @@ flex-direction: column;
   gap: 30px;
   margin-bottom: 20px;
 }
+
 .profileButtons {
   display: flex;
   align-items: center;
@@ -104,6 +130,22 @@ flex-direction: column;
     margin-bottom: 70px;
   }
 }
+@media screen and (min-width: 1921px) {
+  .profileWorks {
+   display: flex;
+   width: 567px;
+   height: 567px; 
+   margin-left: 40px;
+  }
+  .profileDiscover {
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .discoverButton {
+    margin: 0;
+  }
+}
 
 .profileFooter {
   display: flex;
@@ -129,3 +171,4 @@ width: 187px;
 height: 52px;
 }
 };
+

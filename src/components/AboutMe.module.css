@@ -1,5 +1,10 @@
-.aboutMeSection {
-}
+@media screen and (min-width: 1921px) {
+  .aboutMeContainer {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #252525
+  }
+} 
 
 .description {
   display: flex;
@@ -31,6 +36,16 @@
   background-color: #252525;
 }
 
+@media screen and (min-width: 1921px) {
+  .aboutMeWrapper {
+    justify-content: center;
+    margin: auto;
+    align-items: flex-end;
+    padding-right: 70px;
+    padding-left: 150px;
+  }
+}
+
 .aboutMeText { 
 font-family: "Gilroy", sans-serif;
 font-weight: 400;
@@ -46,6 +61,13 @@ margin-right: 30px;
   }  
   .description {
     margin: 30px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .description {
+    margin: 93px 0px;;
+    padding: 0px 70px;
   }
 }
 

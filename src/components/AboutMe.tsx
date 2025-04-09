@@ -6,7 +6,8 @@ import twitterIcon from "../assets/icons/twitterIcon.svg";
 
 const AboutMe = () => {
   return (
-<>
+
+<div className={c.aboutMeContainer}>
     <div className={c.aboutMeSection}>
       <div className={c.description}>
         <h2 className={c.descriptionText}>
@@ -25,7 +26,8 @@ const AboutMe = () => {
             <img className={c.twitterIcon} src={twitterIcon} />
           </div>
         </div>
-        </>
+        </div>
+        
   );
 }
 
