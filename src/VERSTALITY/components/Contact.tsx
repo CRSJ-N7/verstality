@@ -1,8 +1,8 @@
 import c from './Contact.module.css'
-import facebookIcon from "../assets/our-team/facebookIcon.svg";
-import dribbleIcon from "../assets/our-team/dribbleIcon.svg";
-import linkedinIcon from "../assets/our-team/linkedinIcon.svg";
-import twitterIcon from "../assets/our-team/twitterIcon.svg";
+import facebookIcon from "../../assets/our-team/facebookIcon.svg";
+import dribbleIcon from "../../assets/our-team/dribbleIcon.svg";
+import linkedinIcon from "../../assets/our-team/linkedinIcon.svg";
+import twitterIcon from "../../assets/our-team/twitterIcon.svg";
 const Contact = () => {
   return (
     <div className={c.contactContainer}>

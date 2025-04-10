@@ -1,5 +1,5 @@
 import c from "./WhatIDo.module.css";
-import iDoPhoto from "../assets/what-i-do/iDoPhoto.png";
+import iDoPhoto from "../../assets/what-i-do/iDoPhoto.png";
 const WhatIDo = () => {
   return (
     <div className={c.iDoContainer}>

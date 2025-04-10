@@ -1,16 +1,16 @@
 import c from '../components/MyClients.module.css'
-import logo1 from "../assets/my-clients/Logo-1.svg";
-import logo2 from "../assets/my-clients/Logo-2.svg";
-import logo3 from "../assets/my-clients/Logo-3.svg";
-import logo4 from "../assets/my-clients/Logo-4.svg";
-import logo5 from "../assets/my-clients/Logo-5.svg";
-import logo6 from "../assets/my-clients/Logo-6.svg";
-import photo1 from "../assets/my-clients/Photo-1.png";
-import photo2 from "../assets/my-clients/Photo-2.png"
-import photo3 from "../assets/my-clients/Photo-3.png"
-import photo4 from "../assets/my-clients/Photo-4.png"
-import photo5 from "../assets/my-clients/Photo-5.png"
-import photo6 from "../assets/my-clients/Photo-6.png"
+import logo1 from "../../assets/my-clients/Logo-1.svg";
+import logo2 from "../../assets/my-clients/Logo-2.svg";
+import logo3 from "../../assets/my-clients/Logo-3.svg";
+import logo4 from "../../assets/my-clients/Logo-4.svg";
+import logo5 from "../../assets/my-clients/Logo-5.svg";
+import logo6 from "../../assets/my-clients/Logo-6.svg";
+import photo1 from "../../assets/my-clients/Photo-1.png";
+import photo2 from "../../assets/my-clients/Photo-2.png"
+import photo3 from "../../assets/my-clients/Photo-3.png"
+import photo4 from "../../assets/my-clients/Photo-4.png"
+import photo5 from "../../assets/my-clients/Photo-5.png"
+import photo6 from "../../assets/my-clients/Photo-6.png"
 
 const MyClients = () => {
   return (

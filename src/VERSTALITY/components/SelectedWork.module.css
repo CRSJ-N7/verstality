@@ -121,7 +121,7 @@ flex-direction: column;
 }
 
 .discoverButton::after {
-  content: url('../assets/selected-work/arrow.svg');
+  content: url('../../assets/selected-work/arrow.svg');
   height: 1.75em;
   }
 

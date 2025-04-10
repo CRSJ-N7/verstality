@@ -86,7 +86,7 @@
 }
 
 .getInTouchButton::after {
-  content: url('../assets/selected-work/arrow.svg');
+  content: url('../../assets/selected-work/arrow.svg');
   height: 1.75em;
   }
 

@@ -1,27 +1,12 @@
 import './App.css'
-import Header from './components/Header'
-import AboutMe from './components/AboutMe'
-import Logos from './components/Logos'
-import WhatIDo from './components/WhatIDo';
-import SelectedWork from './components/SelectedWork';
-import MyClients from './components/MyClients';
-import OurTeam from './components/OurTeam';
-import Contact from './components/Contact';
+import VERSTALITY from './VERSTALITY/Verstality';
+
 function App() {
 
   return (
-    <>
-      <div className="app">
-        <Header />
-        <AboutMe />
-        <Logos />
-        <WhatIDo />
-        <SelectedWork />
-        <MyClients />
-        <OurTeam />
-        <Contact />
-      </div>
-    </>
+    <div className="app">
+      <VERSTALITY />
+    </div>
   );
 }
 

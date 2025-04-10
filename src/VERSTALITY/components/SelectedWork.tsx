@@ -1,8 +1,8 @@
 import c from "./SelectedWork.module.css";
-import flower from "../assets/selected-work/flower-picture.png";
-import girl from "../assets/selected-work/girl-picture.png";
-import hand from "../assets/selected-work/hand-picture.png";
-import leafs from "../assets/selected-work/leafs-picture.png";
+import flower from "../../assets/selected-work/flower-picture.png";
+import girl from "../../assets/selected-work/girl-picture.png";
+import hand from "../../assets/selected-work/hand-picture.png";
+import leafs from "../../assets/selected-work/leafs-picture.png";
 const SelectedWork = () => {
   return (
     <div className={c.selectedWorkContainer}>

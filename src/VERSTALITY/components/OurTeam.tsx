@@ -1,14 +1,14 @@
 import c from "./OurTeam.module.css"
-import facebookIcon from "../assets/our-team/facebookIcon.svg";
-import dribbleIcon from "../assets/our-team/dribbleIcon.svg";
-import linkedinIcon from "../assets/our-team/linkedinIcon.svg";
-import twitterIcon from "../assets/our-team/twitterIcon.svg";
-import photo1 from "../assets/our-team/Photo-1.png"
-import photo2 from "../assets/our-team/Photo-2.png"
-import photo3 from "../assets/our-team/Photo-3.png"
-import photo4 from "../assets/our-team/Photo-4.png"
-import photo5 from "../assets/our-team/Photo-5.png"
-import photo6 from "../assets/our-team/Photo-6.png"
+import facebookIcon from "../../assets/our-team/facebookIcon.svg";
+import dribbleIcon from "../../assets/our-team/dribbleIcon.svg";
+import linkedinIcon from "../../assets/our-team/linkedinIcon.svg";
+import twitterIcon from "../../assets/our-team/twitterIcon.svg";
+import photo1 from "../../assets/our-team/Photo-1.png"
+import photo2 from "../../assets/our-team/Photo-2.png"
+import photo3 from "../../assets/our-team/Photo-3.png"
+import photo4 from "../../assets/our-team/Photo-4.png"
+import photo5 from "../../assets/our-team/Photo-5.png"
+import photo6 from "../../assets/our-team/Photo-6.png"
 
 
 const OurTeam = () => {
