@@ -2,12 +2,14 @@ import c from "./Header.module.css";
 import logo from "../assets/icons/HeaderLogo.svg";
 import scrollDown from "../assets/header/scrollDown.png";
 import mainPhoto from "../assets/header/mainPhoto.png";
+import dianneStudio from "../assets/header/dianneStudio.svg"
 
 function Header() {
   return (
       <div className={c.header}>
         <div className={c.menu}>
           <img className={c.logo} src={logo} />
+          <img className={c.dianneStudio} src={dianneStudio}/>
           <h2 className={c.menuText}>MENU</h2>
         </div>
         <div className={c.titleWrapper}>

@@ -4,11 +4,8 @@
   padding: 20px 20px 0px 20px;
 }
 
-@media screen and (min-width: 1921px) {
-  .menu {
-    padding: 40px 70px 30px 70px;
-  }
-  
+.dianneStudio {
+  display: none;
 }
 
 .menuText {
@@ -17,7 +14,20 @@
   font-size: 25px;
   color: rgb(37, 37, 37)
 }
-
+@media screen and (min-width: 1921px), screen and (min-width: 991px) {
+  .dianneStudio {
+    display: flex;
+    margin-left: 15px;
+  } 
+  .menu {
+    display: flex;
+    padding: 40px 70px 30px 70px;
+    justify-content: unset;
+  }
+  .menuText {
+    margin-left: auto;
+  }
+}
 
 .titleWrapper {
   display: flex;

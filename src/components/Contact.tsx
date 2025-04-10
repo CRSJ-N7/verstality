@@ -6,6 +6,7 @@ import twitterIcon from "../assets/our-team/twitterIcon.svg";
 const Contact = () => {
   return (
     <div className={c.contactContainer}>
+      <div className={c.contactWrapper}>
       <h2 className={c.contactHeader}>CONTACT</h2>
       <div className={c.contactDescWrapper}>
         <h3 className={c.contactTitle}>
@@ -18,6 +19,7 @@ const Contact = () => {
         <div className={c.getInTouchWrapper}>
           <button className={c.getInTouchButton}>Get In Touch</button>
         </div>
+      </div>
       </div>
 
       <div className={c.footer}>
