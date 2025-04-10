@@ -16,6 +16,14 @@
   }
 }
 
+@media screen and (min-width: 1921px) {
+  .ourTeamHeader {
+    font-size: 212px;
+    margin-top: 50px;
+    margin-inline: 413px;
+  }
+}
+
 @media screen and (min-width: 991px) {
   .ourTeamProfileWrapper {
     display: flex;
@@ -27,6 +35,17 @@
 
   .profilePhoto {
     max-height: 507px;
+  }
+}
+
+
+@media screen and (min-width: 1921px) {
+  .ourTeamProfileWrapper {
+    margin-inline: 70px;
+    justify-content: unset;
+  }
+  .profilePhoto {
+    max-width: 415px;
   }
 }
 
@@ -119,6 +138,12 @@ color: rgb(51, 51, 51);
   .findJobDesc {
     font-size: 64px;
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .findJobWrapper {
+    margin: 0px;
   }
 }
 

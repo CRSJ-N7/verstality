@@ -95,15 +95,15 @@ const OurTeam = () => {
             <img className={c.logo} src={dribbleIcon} />
           </div>
         </div>
-      </div>
       <div className={c.findJobWrapper}>
         <h3 className={c.findJobHeader}>JOIN THE TEAM</h3>
-        <h4 className={c.findJobDesc}>DESIRE TO INFLUENCE <br></br>THE FUTURE OF BRANDING?</h4>
+        <h4 className={c.findJobDesc}>
+          DESIRE TO INFLUENCE <br></br>THE FUTURE OF BRANDING?
+        </h4>
         <div className={c.findJobButtonWrapper}>
-            <button className={c.findJobButton}>
-              Find job
-            </button>
-          </div>
+          <button className={c.findJobButton}>Find job</button>
+        </div>
+      </div>
       </div>
     </div>
   );
